@@ -514,6 +514,10 @@ mark,
   color: #6c757d;
 }
 
+.star:hover {
+  color: #ffff00;
+}
+
 code {
   font-size: 87.5%;
   color: #e83e8c;

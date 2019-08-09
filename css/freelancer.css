@@ -4323,6 +4323,9 @@ input[type="button"].btn-block {
     transition: none;
   }
 }
+.custom-menu:hover {
+  background-color: #ffffff;
+}
 
 .nav {
   display: -webkit-box;

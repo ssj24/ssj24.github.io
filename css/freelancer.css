@@ -403,6 +403,13 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: center;
+}
+
+.lead span {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
 }
 
 .display-1 {
@@ -487,8 +494,33 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%; */
+  width: 22rem;
+  height: 22rem;
+  margin: auto;
+  border-bottom: 10px double var(--secondary);
+  justify-content: center;
+  align-items: center;
+}
+.img-fluid img {
+  width: 16rem;
+  height: 16rem;
+}
+.secondP {
+  border-color: var(--cyan);
+}
+
+.thirdP {
+  border-color: var(--yellow);
+}
+.forthP {
+  border-color: var(--orange);
+}
+.fifthP {
+  border-color: var(--red);
+}
+.sixthP {
+  border-color: var(--green);
 }
 
 .img-thumbnail {
@@ -10747,6 +10779,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .masthead .masthead-avatar {
   width: 15rem;
+  box-shadow: 
+    -50px -50px 0 -40px var(--dark),
+    50px 50px 0 -40px var(--secondary);
 }
 
 @media (min-width: 992px) {
@@ -10791,13 +10826,20 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content p {
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px var(--dark);
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
+}
+.portfolio-modal .link-btn:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
